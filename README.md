@@ -1,6 +1,4 @@
-# COL216 Assignment 2 Report
-
-## By Viraaj Narolia: 2023CS10552 and Nishant Ranjan: 2023CS10607
+# RISC-V Processor Simulator
 
 ---
 
