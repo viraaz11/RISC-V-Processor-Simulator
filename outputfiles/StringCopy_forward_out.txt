@@ -1,0 +1,7 @@
+lb x5 0 x11              ;  IF ; ID ; EX ; ME ; WB ;    ;    ; IF ; ID ; EX ; ME ; WB ;    ;    ; IF ; ID ; EX ; ME ; WB ;    ;    ; IF ; ID ; EX ; ME ; WB ;    ;    ; IF ; ID ;
+sb x5 0 x10              ;     ; IF ; ID ; ID ; EX ; ME ; WB ;    ; IF ; ID ; ID ; EX ; ME ; WB ;    ; IF ; ID ; ID ; EX ; ME ; WB ;    ; IF ; ID ; ID ; EX ; ME ; WB ;    ; IF ;
+beq x5 x0 16             ;     ;    ; IF ; IF ; ID ; EX ; ME ; WB ;    ; IF ; IF ; ID ; EX ; ME ; WB ;    ; IF ; IF ; ID ; EX ; ME ; WB ;    ; IF ; IF ; ID ; EX ; ME ; WB ;    ;
+addi x10 x10 1           ;     ;    ;    ;    ; IF ;    ;    ;    ;    ;    ;    ; IF ;    ;    ;    ;    ;    ;    ; IF ;    ;    ;    ;    ;    ;    ; IF ;    ;    ;    ;    ;
+addi x11 x11 1           ;     ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;
+jal x0 -20 <stringcopy>  ;     ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;    ;
+jalr x0 x1 0             ;     ;    ;    ;    ;    ; IF ; ID ; EX ; ME ; WB ;    ;    ; IF ; ID ; EX ; ME ; WB ;    ;    ; IF ; ID ; EX ; ME ; WB ;    ;    ; IF ; ID ; EX ; ME ;

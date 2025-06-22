@@ -1,0 +1,37 @@
+# Ignore JSON files
+*.json
+
+# Ignore compiled binaries
+*.exe
+*.out
+*.app
+*.o
+*.a
+*.so
+
+# Ignore build directories
+/build/
+Debug/
+Release/
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# Ignore dependency files
+*.d
+*.gcda
+*.gcno
+*.gcov
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.~*
+*.*.un~
